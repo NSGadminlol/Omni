@@ -89,13 +89,8 @@ function buildShell() {
       ${sideLink('index.html', 'Main Page')}
       ${sideLink('pages/shredderhub.html', 'ShredderHub')}
       ${sideLink('pages/techmanifest.html', 'TechManifest')}
-<<<<<<< HEAD
       ${sideLink('pages/registery.html', 'Registry')}
       ${sideLink('pages/askapro.html', 'Ask A NERD')}
-=======
-      ${sideLink('registery.html', 'Registry')}
-      ${sideLink('askapro.html', 'Debugging')}
->>>>>>> pr-23
     </ul>
   </div>
   <div class="wiki-sidebar-block">
@@ -210,13 +205,8 @@ function buildFooter() {
                 <small class="credit-note">drafting and writing shredder pages</small>
             </div>
             <div class="credit-member">
-<<<<<<< HEAD
-                <span class="member-name">legallypvid</span>
-                <small class="credit-note">Tech info, minor writing.</small>
-=======
                 <span class="member-name">goober</span>
                 <small class="credit-note">helping with shredder writing</small>
->>>>>>> pr-23
             </div>
         </div>
 
@@ -227,13 +217,8 @@ function buildFooter() {
                 <small class="credit-note">Natural Selection</small>
             </div>
             <div class="credit-member">
-<<<<<<< HEAD
-                <span class="member-name">goober</span>
-                <small class="credit-note">Assistance with shredder writing.</small>
-=======
                 <span class="member-name">legallypvid</span>
                 <small class="credit-note">tech info, some writing</small>
->>>>>>> pr-23
             </div>
         </div>
     </div>
