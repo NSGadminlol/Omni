@@ -2642,6 +2642,223 @@ footer {
     margin: 0;
 }
 
+/* ═══════════════════════════════════════════
+   HISTORY PORTAL (Soystory-inspired)
+   ═══════════════════════════════════════════ */
+.history-portal-page .history-portal-lead {
+    margin-bottom: 1rem;
+    border-bottom: 1px solid var(--border-subtle);
+    padding-bottom: 0.75rem;
+}
+
+.history-portal-welcome {
+    margin-bottom: 0.25rem;
+}
+
+.history-portal-eyebrow {
+    font-family: var(--font-mono);
+    font-size: 0.62rem;
+    font-weight: 500;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--amber-bright);
+    margin: 0 0 0.35rem;
+}
+
+.history-portal-layout {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 220px;
+    gap: 1rem;
+    align-items: start;
+    margin-top: 0.5rem;
+}
+
+.history-portal-aside {
+    position: sticky;
+    top: 1rem;
+}
+
+.history-chrono-body {
+    text-align: center;
+    padding: 1.25rem 1rem 1.35rem;
+}
+
+.history-chrono-heading {
+    font-size: 1.35rem;
+    font-weight: 700;
+    color: var(--amber-bright);
+    margin: 0 0 1.15rem;
+    border: none;
+    padding: 0;
+    letter-spacing: -0.02em;
+}
+
+.history-chrono-unit {
+    margin-bottom: 1.1rem;
+}
+
+.history-chrono-unit:last-child {
+    margin-bottom: 0;
+}
+
+.history-era-pill {
+    display: inline-flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 0.1rem 0.35rem;
+    max-width: 100%;
+    margin: 0 auto 0.55rem;
+    padding: 0.4rem 1rem;
+    background: rgba(255, 255, 255, 0.06);
+    border: 1px solid var(--border-light);
+    border-radius: 999px;
+    line-height: 1.5;
+}
+
+.history-era-name {
+    font-weight: 700;
+    font-size: 0.92rem;
+}
+
+.history-era-tab {
+    background: none;
+    border: none;
+    padding: 0;
+    margin: 0;
+    font-weight: 700;
+    font-size: 0.92rem;
+    line-height: 1.5;
+    cursor: pointer;
+    font-family: inherit;
+}
+
+.history-era-tab.is-active {
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 3px;
+}
+
+.history-era-tab:focus-visible {
+    outline: 2px solid var(--amber);
+    outline-offset: 3px;
+    border-radius: 2px;
+}
+
+.history-era-tab.history-era-name--1 {
+    color: #b8b8c8;
+}
+
+.history-era-tab.history-era-name--2 {
+    color: #e8a0a0;
+}
+
+.history-era-tab.history-era-name--3 {
+    color: #e8a8d8;
+}
+
+.history-era-name--1 {
+    color: #b8b8c8;
+}
+
+.history-era-name--2 {
+    color: #e8a0a0;
+}
+
+.history-era-name--3 {
+    color: #e8a8d8;
+}
+
+.history-era-name--4 {
+    color: #e8b878;
+}
+
+.history-era-name--5 {
+    color: #c878e8;
+}
+
+.history-chrono-dot {
+    color: var(--text-muted);
+    margin: 0 0.15rem;
+    font-size: 0.75rem;
+    user-select: none;
+}
+
+.history-event-chain {
+    margin: 0;
+    font-size: 0.84rem;
+    line-height: 1.75;
+    color: var(--text-main);
+    max-width: 52rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.history-event-chain a {
+    color: var(--amber-bright);
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.history-event-chain a:hover,
+.history-event-chain a:focus-visible {
+    color: var(--text-bright);
+    text-decoration: underline;
+    outline: none;
+}
+
+.history-portal-nav {
+    display: flex;
+    flex-direction: column;
+    gap: 0.45rem;
+}
+
+.history-portal-nav-link {
+    display: block;
+    padding: 0.65rem 0.7rem;
+    border: 1px solid var(--border-light);
+    background: var(--panel-bg-flat);
+    text-decoration: none;
+    color: inherit;
+    transition: border-color 0.12s var(--ease-out), background 0.12s var(--ease-out);
+}
+
+.history-portal-nav-link:hover,
+.history-portal-nav-link:focus-visible {
+    border-color: var(--amber-border);
+    background: var(--amber-subtle);
+    outline: none;
+    text-decoration: none;
+}
+
+.history-portal-nav-label {
+    display: block;
+    font-family: var(--font-mono);
+    font-size: 0.56rem;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--amber-bright);
+    margin-bottom: 0.2rem;
+}
+
+.history-portal-nav-link strong {
+    display: block;
+    font-size: 0.88rem;
+    color: var(--text-bright);
+    font-weight: 600;
+}
+
+@media (max-width: 900px) {
+    .history-portal-layout {
+        grid-template-columns: 1fr;
+    }
+
+    .history-portal-aside {
+        position: static;
+        order: -1;
+    }
+}
+
 /* wiki block slop or smth */
 .wiki-portal-grid {
     display: grid;
