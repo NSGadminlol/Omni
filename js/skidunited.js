@@ -153,11 +153,7 @@ function buildSiteNotice() {
 
     const notice = document.createElement('div');
     notice.className = 'wiki-site-notice';
-<<<<<<< HEAD
-    notice.innerHTML = '<strong>Neo Shredder Group WIKI</strong> — Plane Crazy shredder, tech and history doccumenation. Read the rules, love all omnis responsibly.';
-=======
     notice.innerHTML = '<strong>Neo Shredder Group WIKI</strong> — you should join the <a href="https://discord.gg/89gEYNR7zd" target="_blank" rel="noopener noreferrer">Discord</a> since a wall of text usually can&apos;t fix everything.';
->>>>>>> pr-23
     main.insertBefore(notice, main.firstChild);
 }
 
