@@ -89,18 +89,14 @@ function buildShell() {
       ${sideLink('index.html', 'Main Page')}
       ${sideLink('pages/shredderhub.html', 'ShredderHub')}
       ${sideLink('pages/techmanifest.html', 'TechManifest')}
-      ${sideLink('pages/registery.html', 'Registry')}
-      ${sideLink('pages/askapro.html', 'Ask A NERD')}
     </ul>
   </div>
   <div class="wiki-sidebar-block">
-    <div class="wiki-sidebar-head">Shredder Modules</div>
+    <div class="wiki-sidebar-head">Community</div>
     <ul>
-      ${sideLink('pages/shreds/massless.html', 'Massless')}
-      ${sideLink('pages/shreds/gyrocore.html', 'Gyro Cores')}
-      ${sideLink('pages/shreds/armorinfo.html', 'Armor Info')}
-      ${sideLink('pages/shreds/blades.html', 'Blades')}
-      ${sideLink('pages/shreds/movementmechanics.html', 'Movement')}
+      ${sideLink('pages/askapro.html', 'Ask a Nerd')}
+      ${sideLink('pages/registery.html', 'Registry')}
+      ${sideLink('pages/historyportal.html', 'History Portal')}
     </ul>
   </div>
   <div class="wiki-sidebar-block">

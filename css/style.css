@@ -3187,4 +3187,33 @@ footer {
     text-decoration-color: var(--amber-bright);
 }
 
-
+/* ═══════════════════════════════════════════
+   MINI NOTE TEXT IN PARAGRAPHS (.mini-note)
+   ═══════════════════════════════════════════ */
+.mini-note,
+.wiki-mini-note,
+.inline-note {
+    font-size: 0.82em;
+    line-height: 1.3;
+    color: var(--amber-bright);
+    background: var(--amber-subtle);
+    border: 1px solid var(--amber-border);
+    padding: 0.12em 0.45em;
+    border-radius: 3px;
+    display: inline-block;
+    vertical-align: baseline;
+    margin: 0 0.15em;
+    font-weight: 500;
+}
+
+.mini-note--text,
+.wiki-mini-note--text,
+.inline-note--text {
+    font-size: 0.85em;
+    color: var(--text-secondary);
+    font-style: italic;
+    background: none;
+    border: none;
+    padding: 0;
+    margin: 0 0.15em;
+}
