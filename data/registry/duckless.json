@@ -1,15 +1,22 @@
 {
-    "username": "GEMERALD TEMPLATE GOD",
-    "userid": 123123123,
+    "username": "duckless",
+    "userid": 0,
     "offenses": [
-        "Harassment",
-        "not being me"
+        "Harassment"
     ],
-    "alts": [
-        "KingOFindian",
-        "DUCKLESS",
-        "You"
+    "alts": [],
+    "description": "placeholder",
+    "evidence": [
+        {
+            "title": "Example link evidence",
+            "url": "https://discord.com/channels/example"
+        },
+        {
+            "title": "Example text-only note (no url needed)",
+            "text": "This is a plain text evidence entry. Use this when you have no link to share but want to note something."
+        }
     ],
-    "description": "actions",
-    "evidence": []
+    "images": [
+        "../../assests/armor_selection.png"
+    ]
 }

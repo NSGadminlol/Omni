@@ -1,4 +1,23 @@
 {
+    "_help": {
+        "HOW TO FILL THIS FILE": "Fill in the fields below. Remove this _help block when done.",
+        "username": "Roblox display name or username",
+        "userid": "Their Roblox user ID number (no quotes)",
+        "offenses": ["List offenses as strings in this array"],
+        "alts": ["List known alt accounts as strings"],
+        "description": "A description of what they did",
+        "evidence": [
+            {
+                "title": "Link evidence: give it a title and a url",
+                "url": "https://discord.com/channels/..."
+            },
+            {
+                "title": "Text-only evidence: just title and text, no url needed",
+                "text": "Write out the evidence as plain text here."
+            }
+        ],
+        "images": ["Direct image URLs go here as strings. Leave the array empty [] if none."]
+    },
     "username": "GEMERALD TEMPLATE GOD",
     "userid": 123123123,
     "offenses": [
@@ -11,5 +30,6 @@
         "You"
     ],
     "description": "actions",
-    "evidence": []
+    "evidence": [],
+    "images": []
 }
