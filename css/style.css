@@ -1213,6 +1213,111 @@ footer strong {
     background-color: rgba(255, 255, 255, 0.02);
 }
 
+/* ═══════════════════════════════════════════
+   BATTLE INFOBOX
+   ═══════════════════════════════════════════ */
+.battle-infobox {
+    float: right;
+    width: 330px;
+    margin: 0 0 1.25rem 1.5rem;
+    background-color: var(--bg-surface);
+    border: 1px solid var(--border-medium);
+    border-radius: var(--radius-md);
+    font-size: 0.82rem;
+    overflow: hidden;
+    color: var(--text-main);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+}
+
+.battle-infobox-title {
+    background: var(--bg-block-head);
+    color: var(--text-bright);
+    text-align: center;
+    font-family: var(--font-mono);
+    font-weight: 600;
+    font-size: 0.8rem;
+    padding: 0.65rem 0.85rem;
+    border-bottom: 1px solid var(--border-light);
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+}
+
+.battle-infobox-info {
+    padding: 0.25rem 0;
+}
+
+.battle-info-row {
+    display: flex;
+    padding: 0.4rem 0.75rem;
+    border-bottom: 1px solid var(--border-subtle);
+}
+
+.battle-info-row:last-child {
+    border-bottom: none;
+}
+
+.battle-info-label {
+    width: 35%;
+    font-family: var(--font-mono);
+    font-weight: 500;
+    font-size: 0.65rem;
+    color: var(--text-spec);
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    padding-top: 0.1rem;
+}
+
+.battle-info-value {
+    width: 65%;
+    color: var(--text-main);
+    font-size: 0.78rem;
+    line-height: 1.4;
+}
+
+.battle-section-header {
+    background-color: var(--bg-block-head);
+    border-top: 1px solid var(--border-light);
+    border-bottom: 1px solid var(--border-light);
+    color: var(--text-bright);
+    text-align: center;
+    font-family: var(--font-mono);
+    font-weight: 600;
+    font-size: 0.68rem;
+    padding: 0.45rem 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+
+.battle-columns {
+    display: flex;
+    background-color: var(--bg-content);
+}
+
+.battle-column {
+    flex: 1;
+    padding: 0.5rem 0.75rem;
+}
+
+.battle-column:not(:last-child) {
+    border-right: 1px solid var(--border-light);
+}
+
+.battle-column-item {
+    font-size: 0.75rem;
+    line-height: 1.45;
+    margin-bottom: 0.35rem;
+    color: var(--text-main);
+}
+
+.battle-column-item:last-child {
+    margin-bottom: 0;
+}
+
+.battle-column-item.battle-leader {
+    font-weight: 500;
+}
+
+
 /* ── Status badges ── */
 .status-badge {
     display: inline-block;
